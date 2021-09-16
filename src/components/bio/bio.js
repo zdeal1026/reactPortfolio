@@ -14,4 +14,4 @@ function Bio() {
         )
 }
 
-export default Bio();
+export default Bio;

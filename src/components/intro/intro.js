@@ -9,4 +9,4 @@ function Intro() {
         )
 }
 
-export default Intro();
+export default Intro;
