@@ -8,23 +8,23 @@ function App() {
   return (
     <section>
 
-    <header>
-    <Navbar />
-    </header>
-
-    <article className="block">
-    <Intro />
-    <Bio />
-    </article>
-
-    <div>
-    <Portfolio />
-    </div>
-
-    <footer>
-    <Contact />
-    </footer>
-   
+      <header>
+      <Navbar />
+      </header>
+    
+      <article className="block">
+      <Intro />
+      <Bio />
+      </article>
+    
+      <div>
+      <Portfolio />
+      </div>
+    
+      <footer>
+      <Contact />
+      </footer>
+    
    </section>
   );
 }
