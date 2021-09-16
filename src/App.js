@@ -1,7 +1,7 @@
-import Bio from "./components/bio/bio.jsx";
-import Contact from "./components/contact/contact.jsx";
-import Intro from "./components/intro/intro.jsx";
-import Navbar from "./components/navbar/navbar.jsx";
+import Bio from "./components/bio/bio.js";
+import Contact from "./components/contact/contact.js";
+import Intro from "./components/intro/intro.js";
+import Navbar from "./components/navbar/navbar.js";
 import Portfolio from "./components/portfolio/portfolio.js";
 
 function App() {
@@ -29,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default App();
