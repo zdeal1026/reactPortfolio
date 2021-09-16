@@ -8,4 +8,4 @@ export default function portfolio() {
         )
 }
 
-export defualy portfolio();
+export default portfolio();

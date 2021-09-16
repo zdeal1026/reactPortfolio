@@ -8,4 +8,4 @@ export default function contact() {
         )
 }
 
-export defualy contact();
+export default contact();

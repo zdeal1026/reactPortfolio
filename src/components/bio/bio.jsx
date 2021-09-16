@@ -8,4 +8,4 @@ export default function bio() {
         )
 }
 
-export defualy bio();
+export default bio();

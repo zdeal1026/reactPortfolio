@@ -8,4 +8,4 @@ export default function intro() {
         )
 }
 
-export defualy intro();
+export default intro();
