@@ -1,8 +1,9 @@
 import React from "react"
+import "./style.css"
 
 export default function portfolio() {
     return (
-        <div>
+        <div className="portfolio">
 
         </div>        
         )

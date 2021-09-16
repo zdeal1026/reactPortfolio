@@ -1,8 +1,9 @@
 import React from "react"
+import "./style.css"
 
 export default function intro() {
     return (
-        <div>
+        <div className="intro">
 
         </div>        
         )
