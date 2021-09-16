@@ -1,7 +1,7 @@
 import React from "react"
 import "./style.css"
 
-export default function contact() {
+function Contact() {
     return (
         <div className="contact">
             contact
@@ -9,4 +9,4 @@ export default function contact() {
         )
 }
 
-export default contact();
+export default Contact();

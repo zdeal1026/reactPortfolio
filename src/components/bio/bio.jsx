@@ -1,7 +1,7 @@
 import React from "react"
 import "./style.css"
 
-export default function bio() {
+function Bio() {
     return (
         <div className="bio">
               Hello! My name is Zach and for the last <span>TEN</span> years I have been working in the
@@ -14,4 +14,4 @@ export default function bio() {
         )
 }
 
-export default bio();
+export default Bio();

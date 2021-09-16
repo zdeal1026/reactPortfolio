@@ -1,7 +1,7 @@
 import React from "react"
 import "./style.css"
 
-export default function portfolio() {
+function Portfolio() {
     return (
         <div className="portfolio">
             portfolio
@@ -9,4 +9,4 @@ export default function portfolio() {
         );
 }
 
-export default portfolio();
+export default Portfolio();

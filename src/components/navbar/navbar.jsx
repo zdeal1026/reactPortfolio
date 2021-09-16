@@ -1,7 +1,7 @@
 import React from "react"
 import "./style.css"
 
-export default function navbar() {
+function Navbar() {
     return (
         <div className="navbar">
             navbar
@@ -9,4 +9,4 @@ export default function navbar() {
         )
 }
 
-export default navbar();
+export default Navbar();
