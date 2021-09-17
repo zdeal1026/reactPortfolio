@@ -9,9 +9,9 @@ function Contact() {
 
             <a id="gmail" href="mailto:jedimastershake@gmail.com">Email</a>
 
-            <a href="https://www.linkedin.com/in/zdeal1026/" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/zdeal1026/" target="_blank" rel="noreferrer">LinkedIn</a>
 
-            <a href="https://github.com/" target="_blank">Github</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">Github</a>
 
             <a href="./images/ResumeUpdate.pdf" download="./images/ResumeUpdate" target="_blank">Resume</a>
 

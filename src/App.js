@@ -3,12 +3,13 @@ import Contact from "./components/contact/contact.js";
 import Intro from "./components/intro/intro.js";
 import Navbar from "./components/navbar/navbar.js";
 import Portfolio from "./components/portfolio/portfolio.js";
+import "./style.css"
 
 function App() {
   return (
-    <section>
+    <div className="app">
 
-      <header>
+      <header className="topbar">
       <Navbar />
       </header>
     
@@ -19,13 +20,10 @@ function App() {
     
       <div>
       <Portfolio />
+      <Contact />
       </div>
     
-      <footer>
-      <Contact />
-      </footer>
-    
-   </section>
+   </div>
   );
 }
 

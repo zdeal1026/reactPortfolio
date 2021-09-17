@@ -1,0 +1,22 @@
+.app {
+  height: 100vh;
+
+  .topbar {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: teal;
+    position: relative;
+    top: 70px;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      diplay: none;
+    }
+
+    > * {
+      width: 100vh;
+      height: calc(100vh - 70px);
+      scroll-snap-align: start;
+    }
+  }
+}
