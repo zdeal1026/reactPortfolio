@@ -1,24 +1,19 @@
-import Bio from "./components/bio/bio.js";
-import Contact from "./components/contact/contact.js";
-import Intro from "./components/intro/intro.js";
-import Navbar from "./components/navbar/navbar.js";
-import Portfolio from "./components/portfolio/portfolio.js";
-import "./style.css"
+import Bio from "./components/bio/bio.jsx";
+import Contact from "./components/contact/contact.jsx";
+import Intro from "./components/intro/intro.jsx";
+import Navbar from "./components/navbar/navbar.jsx";
+import Portfolio from "./components/portfolio/portfolio.jsx";
+import "./style.scss"
 
 function App() {
   return (
     <div className="app">
 
-      <header className="topbar">
       <Navbar />
-      </header>
     
-      <article className="block">
+      <div className="sections">
       <Intro />
       <Bio />
-      </article>
-    
-      <div>
       <Portfolio />
       <Contact />
       </div>
