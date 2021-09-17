@@ -3,7 +3,7 @@ import "./style.scss"
 
 function Contact() {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
 
             <a href="tel:1.828.612.3305">1.828.612.3305</a>
 

@@ -3,7 +3,7 @@ import "./style.scss"
 
 function Bio() {
     return (
-        <div className="bio">
+        <div className="bio" id="bio">
               Hello! My name is Zach and for the last <span>TEN</span> years I have been working in the
                         medical
                         field. I have recently been searching for a career change and now I believe I have found a true

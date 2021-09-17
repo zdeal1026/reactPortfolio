@@ -3,7 +3,7 @@ import "./style.scss"
 
 function Portfolio() {
     return (
-        <section className="portfolio">
+        <section className="portfolio" id="portfolio">
 
     comback here
 
