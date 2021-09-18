@@ -1,35 +1,40 @@
-import Bio from "./components/bio/bio.jsx";
-import Contact from "./components/contact/contact.jsx";
-import Intro from "./components/intro/intro.jsx";
-import Navbar from "./components/navbar/navbar.jsx";
-import Portfolio from "./components/portfolio/portfolio.jsx";
+import React, { Component } from "react";
+
+import Bio from "./components/bio/bio.js";
+import Contact from "./components/contact/contact.js";
+import Intro from "./components/intro/intro.js";
+import Navbar from "./components/navbar/navbar.js";
+import Portfolio from "./components/portfolio/portfolio.js";
 //import "./style.scss";
 import Carousel from "react-elastic-carousel";
 import "./style.css";
 import Method from "./method";
+import "./App.css";
 
 const breakPoints = [{ width: 1, diploma: 1 }];
 
-function App() {
-  return (
-    <div className="app">
-      <Navbar />
+class App extends Component {
+  render() {
+    return (
+      <div className="app">
+        <Navbar />
 
-      <div className="sections">
-        <Intro />
-        <Bio />
-        <Portfolio />
-        <Contact />
-        <Carousel breakPoints={breakPoints}>
-          <div className="carousel">
-            <Method>Associattes in Applied Sciences; Radiography</Method>
-            <Method>Bachelors of Science; Business Administration</Method>
-            <Method>Certificate; Coding Boot Camp</Method>
-          </div>
-        </Carousel>
+        <div className="sections">
+          <Intro />
+          <Bio />
+          <Portfolio />
+          <Contact />
+          <Carousel breakPoints={breakPoints}>
+            <div className="carousel">
+              <Method>Associattes in Applied Sciences; Radiography</Method>
+              <Method>Bachelors of Science; Business Administration</Method>
+              <Method>Certificate; Coding Boot Camp</Method>
+            </div>
+          </Carousel>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: palegreen;
+}
+
+.intro {
+  height: 100vh;
+  width: 100%;
+  background-color: blue;
+}
+
+.bio {
+  height: 100vh;
+  width: 100%;
+  background-color: purple;
+}
+.portfolio {
+  height: 100vh;
+  width: 100%;
+  background-color: pink;
+}
+
+.contact {
+  height: 100vh;
+  width: 100%;
+  background-color: yellow;
+}
