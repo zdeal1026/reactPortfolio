@@ -3,7 +3,7 @@ import Contact from "./components/contact/contact.jsx";
 import Intro from "./components/intro/intro.jsx";
 import Navbar from "./components/navbar/navbar.jsx";
 import Portfolio from "./components/portfolio/portfolio.jsx";
-import "./style.scss";
+//import "./style.scss";
 import Carousel from "react-elastic-carousel";
 import "./style.css";
 import Method from "./method";
